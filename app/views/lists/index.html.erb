@@ -8,10 +8,7 @@
     </span>
 
     <p>画像</p>
-    <% if list.image.attached? %>
-        <%= image_tag list.image, size: 10*10 %>
-    <% else %>
-        <%= image_tag 'sample_image', size: 10*10 %>
-    <% end %>
+
+    <%= image_tag list.image, size: 10*10 %>
 
 <% end %>
